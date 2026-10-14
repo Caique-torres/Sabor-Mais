@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Sabor & Mesa: pratos deliciosos, ingredientes selecionados e uma experiência gastronômica especial."
+    >
+
+    <meta name="theme-color" content="#17100c">
+
+    <title>Sabor & Mesa | Restaurante</title>
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Ícones -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#inicio" class="logo">
+                <i class="fa-solid fa-utensils"></i>
+                <span>Sabor <em>& Mesa</em></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+<nav class="nav-menu" id="nav-menu">
+
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#localizacao">Contato</a>
+
+    <a href="https://wa.me/5511987654321"
+       class="btn btn-gold whatsapp-link"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+        WhatsApp
+    </a>
+
+</nav>
+
+        </div>
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- SEÇÃO INICIAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <span class="eyebrow">
+                    <i class="fa-solid fa-star"></i>
+                    Uma experiência especial
+                </span>
+
+                <h1>
+                    Comida boa,
+                    <span>todo dia!</span>
+                </h1>
+
+                <p>
+                    Sabores irresistíveis, ingredientes frescos e um
+                    ambiente especial para você e sua família.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#cardapio" class="btn btn-gold">
+                        Ver cardápio
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- DIFERENCIAIS -->
+        <section class="features">
+
+            <div class="container features-grid">
+
+                <article class="feature">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+
+                    <div>
+                        <h3>Pratos variados</h3>
+                        <p>Do tradicional ao gourmet</p>
+                    </div>
+
+                </article>
+
+                <article class="feature">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <div>
+                        <h3>Ambiente aconchegante</h3>
+                        <p>Perfeito para sua família</p>
+                    </div>
+
+                </article>
+
+                <article class="feature">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-motorcycle"></i>
+                    </div>
+
+                    <div>
+                        <h3>Delivery</h3>
+                        <p>Seu sabor favorito em casa</p>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- SOBRE O RESTAURANTE -->
+        <section class="about section" id="sobre">
+
+            <div class="container about-grid">
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        Nossa história
+                    </span>
+
+                    <h2>
+                        Mais sabor em cada momento.
+                    </h2>
+
+                    <p>
+                        No Sabor & Mesa, acreditamos que uma boa refeição
+                        transforma momentos simples em lembranças especiais.
+                    </p>
+
+                    <p>
+                        Preparamos nossos pratos com ingredientes selecionados,
+                        atenção aos detalhes e carinho em cada receita.
+                    </p>
+
+                    <p>
+                        Nosso objetivo é proporcionar uma experiência saborosa,
+                        acolhedora e especial para cada cliente.
+                    </p>
+
+                    <a href="#cardapio" class="btn btn-gold">
+                        Conheça nosso cardápio
+                    </a>
+
+                </div>
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85"
+                        alt="Mesa preparada para uma experiência gastronômica"
+                        loading="lazy"
+                    >
+
+                    <div class="about-badge">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Feito com carinho</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section class="gallery-section section" id="galeria">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        Nossa galeria
+                    </span>
+
+                    <h2>Um convite para saborear</h2>
+
+                    <p>
+                        Pratos, sabores e momentos especiais fazem parte
+                        da experiência Sabor & Mesa.
+                    </p>
+
+                </div>
+
+                <div class="gallery-grid">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=85"
+                        alt="Ambiente de restaurante"
+                        loading="lazy"
+                    >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=85"
+                        alt="Mesa preparada em restaurante"
+                        loading="lazy"
+                    >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=85"
+                        alt="Interior aconchegante de restaurante"
+                        loading="lazy"
+                    >
+
+                </div>
+            </div>
+        </section>
+
+
+<!-- CARDÁPIO -->  
+      
+    <section class="menu-section section" id="cardapio">  
+
+        <div class="container">  
+              
+<!-- ACESSO AOS APLICATIVOS -->
+<div class="delivery-links">
+
+    <!-- IFOOD -->
+    <div class="ifood-link">
+        <a href="https://www.ifood.com.br/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <strong>Peça no iFood</strong>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+
+    <!-- 99 -->
+    <div class="ifood-link">
+        <a href="https://99app.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <strong>Peça na 99</strong>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+
+    <!-- KEETA -->
+    <div class="ifood-link">
+        <a href="https://www.keeta-global.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <strong>Peça na Keeta</strong>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+
+</div>
+
+            <div class="section-heading">  
+
+                <span class="section-label">  
+                    Nosso cardápio  
+                </span>  
+
+                <h2>Sabores que conquistam</h2>  
+
+                <p>  
+                    Conheça algumas sugestões preparadas para deixar  
+                    sua refeição ainda melhor.  
+                </p>  
+
+            </div>  
+
+
+            <!-- FILTROS DO CARDÁPIO -->  
+            <div  
+                class="menu-filters"  
+                role="group"  
+                aria-label="Filtrar pratos por categoria"  
+            >  
+
+                <button  
+                    class="filter-btn active"  
+                    data-category="todos"  
+                    aria-pressed="true"  
+                >  
+                    Todos  
+                </button>  
+
+                <button  
+                    class="filter-btn"  
+                    data-category="principais"  
+                    aria-pressed="false"  
+                >  
+                    Pratos principais  
+                </button>  
+
+                <button  
+                    class="filter-btn"  
+                    data-category="hamburgueres"  
+                    aria-pressed="false"  
+                >  
+                    Hambúrgueres  
+                </button>  
+
+                <button  
+                    class="filter-btn"  
+                    data-category="sobremesas"  
+                    aria-pressed="false"  
+                >  
+                    Sobremesas  
+                </button>  
+
+            </div>  
+
+
+            <!-- PRATOS -->  
+            <div class="menu-grid">  
+
+                <!-- PRATO 1 -->  
+                <article  
+                    class="menu-card"  
+                    data-category="principais"  
+                >  
+
+                    <div class="menu-image">  
+
+                        <img  
+                            src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=700&q=85"  
+                            alt="Prato preparado com carne e acompanhamentos"  
+                            loading="lazy"  
+                        >  
+
+                        <span class="menu-tag">  
+                            Destaque  
+                        </span>  
+
+                    </div>  
+
+                    <div class="menu-info">  
+
+                        <div class="menu-title">  
+
+                            <h3>Prato da Casa</h3>  
+
+                            <span class="price">  
+                                R$ 39,90  
+                            </span>  
+
+                        </div>  
+
+                        <p>  
+                            Carne grelhada, arroz, acompanhamentos  
+                            e temperos selecionados.  
+                        </p>  
+
+                        <button  
+                            class="order-btn"  
+                            data-dish="Prato da Casa - R$ 39,90"  
+                        >  
+                            Pedir pelo WhatsApp  
+                            <i class="fa-brands fa-whatsapp"></i>  
+                        </button>  
+
+                    </div>  
+                </article>  
+
+
+                <!-- PRATO 2 -->  
+                <article  
+                    class="menu-card"  
+                    data-category="principais"  
+                >  
+
+                    <div class="menu-image">  
+
+                        <img  
+                            src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=85"  
+                            alt="Massa preparada com molho"  
+                            loading="lazy"  
+                        >  
+
+                    </div>  
+
+                    <div class="menu-info">  
+
+                        <div class="menu-title">  
+
+                            <h3>Massa Especial</h3>  
+
+                            <span class="price">  
+                                R$ 32,90  
+                            </span>  
+
+                        </div>  
+
+                        <p>  
+                            Massa selecionada com molho especial  
+                            e finalização da casa.  
+                        </p>  
+
+                        <button  
+                            class="order-btn"  
+                            data-dish="Massa Especial - R$ 32,90"  
+                        >  
+                            Pedir pelo WhatsApp  
+                            <i class="fa-brands fa-whatsapp"></i>  
+                        </button>  
+
+                    </div>  
+                </article>  
+
+
+                <!-- PRATO 3 -->  
+                <article  
+                    class="menu-card"  
+                    data-category="hamburgueres"  
+                >  
+
+                    <div class="menu-image">  
+
+                        <img  
+                            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=85"  
+                            alt="Hambúrguer artesanal com queijo e vegetais"  
+                            loading="lazy"  
+                        >  
+
+                        <span class="menu-tag">  
+                            Favorito  
+                        </span>  
+
+                    </div>  
+
+                    <div class="menu-info">  
+
+                        <div class="menu-title">  
+
+                            <h3>Hambúrguer Gourmet</h3>  
+
+                            <span class="price">  
+                                R$ 29,90  
+                            </span>  
+
+                        </div>  
+
+                        <p>  
+                            Hambúrguer artesanal, queijo, vegetais  
+                            frescos e molho especial.  
+                        </p>  
+
+                        <button  
+                            class="order-btn"  
+                            data-dish="Hambúrguer Gourmet - R$ 29,90"  
+                        >  
+                            Pedir pelo WhatsApp  
+                            <i class="fa-brands fa-whatsapp"></i>  
+                        </button>  
+
+                    </div>  
+                </article>  
+
+
+                <!-- PRATO 4 -->  
+                <article  
+                    class="menu-card"  
+                    data-category="principais"  
+                >  
+
+                    <div class="menu-image">  
+
+                        <img  
+                            src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=85"  
+                            alt="Carne preparada com acompanhamentos"  
+                            loading="lazy"  
+                        >  
+
+                    </div>  
+
+                    <div class="menu-info">  
+
+                        <div class="menu-title">  
+
+                            <h3>Costela Especial</h3>  
+
+                            <span class="price">  
+                                R$ 44,90  
+                            </span>  
+
+                        </div>  
+
+                        <p>  
+                            Carne suculenta com acompanhamentos  
+                            selecionados para completar o prato.  
+                        </p>  
+
+                        <button  
+                            class="order-btn"  
+                            data-dish="Costela Especial - R$ 44,90"  
+                        >  
+                            Pedir pelo WhatsApp  
+                            <i class="fa-brands fa-whatsapp"></i>  
+                        </button>  
+
+                    </div>  
+                </article>  
+
+
+                <!-- PRATO 5 -->  
+                <article  
+                    class="menu-card"  
+                    data-category="sobremesas"  
+                >  
+
+                    <div class="menu-image">  
+
+                        <img  
+                            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85"  
+                            alt="Bolo de chocolate"  
+                            loading="lazy"  
+                        >  
+
+                    </div>  
+
+                    <div class="menu-info">  
+
+                        <div class="menu-title">  
+
+                            <h3>Bolo de Chocolate</h3>  
+
+                            <span class="price">  
+                                R$ 14,90  
+                            </span>  
+
+                        </div>  
+
+                        <p>  
+                            Bolo macio com sabor intenso de chocolate  
+                            para adoçar seu dia.  
+                        </p>  
+
+                        <button  
+                            class="order-btn"  
+                            data-dish="Bolo de Chocolate - R$ 14,90"  
+                        >  
+                            Pedir pelo WhatsApp  
+                            <i class="fa-brands fa-whatsapp"></i>  
+                        </button>  
+
+                    </div>  
+                </article>  
+
+
+                <!-- PRATO 6 -->  
+                <article  
+                    class="menu-card"  
+                    data-category="sobremesas"  
+                >  
+
+                    <div class="menu-image">  
+
+                        <img  
+                            src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=85"  
+                            alt="Sobremesa servida em prato"  
+                            loading="lazy"  
+                        >  
+
+                    </div>  
+
+                    <div class="menu-info">  
+
+                        <div class="menu-title">  
+
+                            <h3>Sobremesa da Casa</h3>  
+
+                            <span class="price">  
+                                R$ 16,90  
+                            </span>  
+
+                        </div>  
+
+                        <p>  
+                            Uma sobremesa especial para finalizar  
+                            sua refeição com muito sabor.  
+                        </p>  
+
+                        <button  
+                            class="order-btn"  
+                            data-dish="Sobremesa da Casa - R$ 16,90"  
+                        >  
+                            Pedir pelo WhatsApp  
+                            <i class="fa-brands fa-whatsapp"></i>  
+                        </button>  
+
+                    </div>  
+                </article>  
+
+            </div>  
+        </div>  
+    </section>
+    
+    
+        
+        <!-- LOCALIZAÇÃO E CONTATO -->
+        <section class="location-section section" id="localizacao">
+
+            <div class="container location-grid">
+
+                <div class="location-content">
+
+                    <span class="section-label">Visite-nos</span>
+
+                    <h2>Esperamos por você!</h2>
+
+                    <p>
+                        Venha conhecer nosso espaço e desfrutar de
+                        uma experiência gastronômica especial.
+                    </p>
+
+                    <!-- ENDEREÇO -->
+                    <div class="location-detail">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Avenida Paulista - São Paulo/SP</p>
+                        </div>
+
+                    </div>
+
+                    <!-- HORÁRIO -->
+                    <div class="location-detail">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <div>
+                            <h3>Horário de funcionamento</h3>
+                            <p>Consulte nossos horários pelo WhatsApp.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- DELIVERY -->
+                    <div class="location-detail">
+
+                        <i class="fa-solid fa-motorcycle"></i>
+
+                        <div>
+                            <h3>Delivery</h3>
+                            <p>Consulte as regiões atendidas.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- BOTÃO DE CONTATO -->
+                    <a href="#" class="btn btn-gold whatsapp-link">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Entre em contato
+                    </a>
+
+                </div>
+
+                
+<!-- MAPA -->
+<div class="map-container">
+
+    <iframe
+        src="https://www.google.com/maps?q=Avenida%20Paulista%2C%20S%C3%A3o%20Paulo%2C%20SP&output=embed"
+        title="Mapa de localização da Avenida Paulista"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+    </iframe>
+
+</div>
+
+
+
+        <!-- BANNER DE PEDIDOS -->
+        <section class="order-banner">
+
+            <div class="container order-banner-content">
+
+                <div>
+
+                    <span class="section-label">
+                        Sabor & Mesa
+                    </span>
+
+                    <h2>
+                        Seu próximo prato favorito está aqui.
+                    </h2>
+
+                    <p>
+                        Consulte o cardápio e faça seu pedido.
+                    </p>
+
+                </div>
+
+                <a href="#" class="btn btn-gold whatsapp-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Fazer pedido
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- LOGO -->
+                <a href="#inicio" class="logo footer-logo">
+
+                    <i class="fa-solid fa-utensils"></i>
+
+                    <span>
+                        Sabor <em>& Mesa</em>
+                    </span>
+
+                </a>
+
+                <p>
+                    Boa comida, ingredientes selecionados e momentos
+                    especiais à mesa.
+                </p>
+
+<!-- REDES SOCIAIS -->
+<div class="social-links">
+
+    <a
+        href="https://www.instagram.com/"
+        class="social-placeholder"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram">
+
+        <i class="fa-brands fa-instagram"></i>
+
+    </a>
+
+    <a
+        href="https://www.facebook.com/"
+        class="social-placeholder"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook">
+
+        <i class="fa-brands fa-facebook-f"></i>
+
+    </a>
+
+    <a
+        href="https://wa.me/5511976384851"
+        class="whatsapp-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+</div>
+
+</div>
+            <!-- INFORMAÇÕES DO RODAPÉ -->
+            <div class="footer-bottom">
+
+                <span>
+                    © <span id="current-year"></span>
+                    Sabor & Mesa. Todos os direitos reservados.
+                </span>
+
+                <a href="#inicio">
+                    Voltar ao início ↑
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ARQUIVO JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>   
